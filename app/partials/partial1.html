@@ -1,0 +1,41 @@
+<div id="accordian" accordianify>
+	<h3 id="basinTitle">Basin Selection</h3>
+	<div id="basinContent">
+		<span>Please select a basin. Right-click on the map to retreve and display basin data.</span>
+		<span>click at: {{clickLocation}}</span>
+
+	</div>
+	<h3 id="weatherTitle">Weather and Climate Models</h3>
+	<div id="weatherContent">
+		<select>
+			<option value="weather">Stochastic Weather Generation</option>
+			<option value="climate">Downscaled Climate Scenario</option>
+		</select>
+		<div id="weatherContentOption">
+		<h2>Specify Amount of Change</h2>
+		<span>Please select values below for changes driving stochastically generated weather.</span>
+		<br>
+		<span>Mean Annual Precipitation (% change, 80-year mean) [VARIABLE VALUES]</span>
+		<br>
+		<div class="slider"></div>
+		<button>Run Model</button>
+		</div>
+	</div>
+	<h3 id="environmentalTitle">Environmental and Streamflow Models</h3>
+	<div id="environmentalContent">
+		<br>
+		<br>
+		<span>Directly specify stream flow and temperature changes</span>
+		<h4>Streamflow (% change): [VARIABLE VALUE]</h4>
+		<div class="slider"></div>
+		<button>Run Stream Models</button>
+	</div>
+	<h3 id="landTitle">Land Use Models</h3>
+	<div id="landContent">
+		<button>Launch Barrier Module</button>
+	</div>
+	<h3 id="fishTitle">Fish Population Models</h3>
+	<div id="FishContent">
+
+	</div>
+</div>

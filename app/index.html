@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="streams">
+<head>
+  <meta charset="utf-8">
+  <title>Streams UI</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  <!-- for offline use: <script src="lib/angular/angular.js"></script> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtwSreklSV08OQCczmQTtHlrtZI-S-RcQ&sensor=true">
+  </script>
+</head>
+<body>
+  <div id="mapCanvas" load-google-map></div>
+  <div ng-view></div>
+
+
+</body>
+</html>
