@@ -28,6 +28,7 @@
   			  //places marker on user click
         google.maps.event.addListener(map,"click",function(event){
           placeMarker(event.latLng);
+          $("#clickLocation").text( event.latLng.lat()+ " "+ event.latLng.lng());
         });
             //accessory methods
           function placeMarker(location){
